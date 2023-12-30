@@ -1,0 +1,19 @@
+/* DateRangePicker.css */
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  

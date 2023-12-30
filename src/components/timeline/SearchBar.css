@@ -1,0 +1,31 @@
+/* SearchBar.css */
+
+.search-input {
+    border: 2px solid #3498db; /* Kenarlık kalınlığı ve rengi */
+    transition: border-color 0.3s ease-in-out; /* Geçiş efekti */
+    margin-right: 10px;
+  }
+  
+  .search-input:focus {
+    border-color: #FFA500; /* Odaklanıldığında kenarlık rengi */
+  }
+  
+  .search-input::placeholder {
+    color: #ccc; /* Placeholder rengi */
+  }
+  
+  .search-button {
+    border: none;
+    border-radius: 5px; /* Kenarları daha yumuşak yapmak için border-radius */
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 10px; /* Butonun sol kenarına 10px boşluk */
+  }
+  
+  .search-button:hover {
+    background: linear-gradient(to right, #FFA500, #87CEEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: scaleAnimation 0.3s ease-in-out;
+  }
+  

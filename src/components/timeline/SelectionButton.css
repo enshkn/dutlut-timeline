@@ -1,0 +1,32 @@
+/* SelectionButton.css */
+
+.option {
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .option:hover {
+    background: linear-gradient(to right, #FFA500, #87CEEB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: scaleAnimation 0.3s ease-in-out;
+  }
+  
+  .selected {
+    background: linear-gradient(to right, #00C9FF, #92FE9D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: scaleAnimation 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleAnimation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
